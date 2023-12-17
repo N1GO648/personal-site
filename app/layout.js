@@ -15,8 +15,8 @@ export default function RootLayout({ children }) {
               by{" "}
               <Link href="https://danabra.mov" target="_blank">
                 <img
-                  alt="Dan Abramov"
-                  src="https://pbs.twimg.com/profile_images/1545194945161707520/rqkwPViA_400x400.jpg"
+                  alt="Nico Lim"
+                  src="https://media.licdn.com/dms/image/D5603AQFaG_nqw81Dxg/profile-displayphoto-shrink_400_400/0/1680421668277?e=1708560000&v=beta&t=vzqtwtDMBhxrAICT977EtUz2xAgwK4iaY6yvPelYGPY"
                   className="relative -top-1 mx-1 inline h-8 w-8 rounded-full"
                 />
               </Link>

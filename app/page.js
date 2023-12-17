@@ -5,8 +5,8 @@ import Color from "colorjs.io";
 import { sans } from "./fonts";
 
 export const metadata = {
-  title: "overreacted — A blog by Dan Abramov",
-  description: "A personal blog by Dan Abramov",
+  title: "Learning to Code — A blog by Nico Lim",
+  description: "A personal blog by Nico Lim",
   alternates: {
     types: {
       "application/atom+xml": "https://overreacted.io/atom.xml",

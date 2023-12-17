@@ -1,10 +1,9 @@
 ---
-title: "A Chain Reaction"
+title: "Hello World"
 date: '2023-12-11'
 spoiler: "The limits of my language mean the limits of my world."
 ---
 
-I wrote a bit of JSX in my editor:
 
 ```js
 <p className="text-2xl font-sans text-purple-400 dark:text-purple-500">

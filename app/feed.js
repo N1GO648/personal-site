@@ -1,12 +1,12 @@
 import { Feed } from "feed";
 
 export function generateFeed(posts, metadata) {
-  const site_url = "https://overreacted.io/";
+  const site_url = "https://nicklim.vercel.app/";
 
   const feedOptions = {
     author: {
-      name: "Dan Abramov",
-      email: "dan.abramov@gmail.com",
+      name: "Nico Lim",
+      email: "nicocaleblim@gmail.com",
       link: site_url,
     },
     description: metadata.description,
@@ -15,7 +15,7 @@ export function generateFeed(posts, metadata) {
     generator: "Feed for Node.js",
     id: site_url,
     image:
-      "https://pbs.twimg.com/profile_images/1545194945161707520/rqkwPViA_400x400.jpg",
+      "https://media.licdn.com/dms/image/D5603AQFaG_nqw81Dxg/profile-displayphoto-shrink_400_400/0/1680421668277?e=1708560000&v=beta&t=vzqtwtDMBhxrAICT977EtUz2xAgwK4iaY6yvPelYGPY",
     link: site_url,
     title: metadata.title,
   };
