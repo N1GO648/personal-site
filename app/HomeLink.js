@@ -18,18 +18,17 @@ export default function HomeLink() {
     >
       <span
         style={{
-          "--myColor1": isActive ? "var(--text)" : "var(--pink)",
-          "--myColor2": isActive ? "var(--text)" : "var(--purple)",
-          backgroundImage:
-            "linear-gradient(45deg, var(--myColor1), var(--myColor2))",
+          
           backgroundClip: "text",
           WebkitBackgroundClip: "text",
-          color: "transparent",
-          transition: "--myColor1 0.2s ease-out, --myColor2 0.2s ease-in-out",
+          color: "#00daff",
+         
         }}
       >
-        My coding journey
+        My Coding Journey
+        
       </span>
+      
     </Link>
   );
 }

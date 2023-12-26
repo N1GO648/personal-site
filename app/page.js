@@ -3,10 +3,11 @@ import matter from "gray-matter";
 import Link from "./Link";
 import Color from "colorjs.io";
 import { sans } from "./fonts";
+import AboutMe from "./about-me";
 
 export const metadata = {
   title: "Learning to Code — A blog by Nico Lim",
-  description: "A personal blog by Nico Lim",
+  description: "A personal blog by Nico",
   alternates: {
     types: {
       "application/atom+xml": "https://overreacted.io/atom.xml",
@@ -37,7 +38,10 @@ export async function getPosts() {
 export default async function Home() {
   const posts = await getPosts();
   return (
+    
     <div className="relative -top-[10px] flex flex-col gap-8">
+      <AboutMe />
+      
       {posts.map((post) => (
         <Link
           key={post.slug}
@@ -56,11 +60,11 @@ export default async function Home() {
 }
 
 function PostTitle({ post }) {
-  let lightStart = new Color("lab(63 59.32 -1.47)");
-  let lightEnd = new Color("lab(33 42.09 -43.19)");
+  let lightStart = new Color("lab(73 -110 -110)");
+  let lightEnd = new Color("lab(73 -110 -110)");
   let lightRange = lightStart.range(lightEnd);
-  let darkStart = new Color("lab(81 32.36 -7.02)");
-  let darkEnd = new Color("lab(78 19.97 -36.75)");
+  let darkStart = new Color("lab(73 -110 -110)");
+  let darkEnd = new Color("lab(73 -110 -110)");
   let darkRange = darkStart.range(darkEnd);
   let today = new Date();
   let timeSinceFirstPost = (today - new Date(2018, 10, 30)).valueOf();
@@ -68,6 +72,7 @@ function PostTitle({ post }) {
   let staleness = timeSinceThisPost / timeSinceFirstPost;
 
   return (
+    
     <h2
       className={[
         sans.className,

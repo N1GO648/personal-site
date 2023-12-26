@@ -22,9 +22,11 @@ export default function RootLayout({ children }) {
               </Link>
             </span>
           </header>
+         
           <main>{children}</main>
         </body>
       </html>
     </AutoRefresh>
+    
   );
 }

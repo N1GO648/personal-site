@@ -22,6 +22,7 @@
     "overnight": "^1.8.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-tabs": "^6.0.2",
     "rehype-pretty-code": "^0.10.2",
     "remark-smartypants": "^2.0.0",
     "shiki": "^0.14.5",

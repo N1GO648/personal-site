@@ -28,7 +28,7 @@ export default async function PostPage({ params }) {
   const discussUrl = `https://x.com/search?q=${encodeURIComponent(
     `https://overreacted.io/${params.slug}/`,
   )}`;
-  const editUrl = `https://github.com/gaearon/overreacted.io/edit/main/public/${encodeURIComponent(
+  const editUrl = `https://github.com/N1GO648/${encodeURIComponent(
     params.slug,
   )}/index.md`;
   return (
@@ -75,9 +75,8 @@ export default async function PostPage({ params }) {
         />
         <hr />
         <p>
-          <Link href={discussUrl}>Discuss on 𝕏</Link>
-          &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-          <Link href={editUrl}>Edit on GitHub</Link>
+
+          <Link href="https://github.com/N1GO648/">My GitHub</Link>
         </p>
       </div>
     </article>
