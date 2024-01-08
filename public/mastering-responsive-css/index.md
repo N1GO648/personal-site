@@ -1,5 +1,5 @@
 ---
-title: 'Responsive CSS for Beginners: A Guide to Adaptive Web Design()'
+title: 'Responsive CSS for Beginners: A Guide to Adaptive Web Design'
 date: '2023-09-13'
 spoiler: "Explore the principles of responsive web design and learn to implement CSS techniques for adaptable and user-friendly websites"
 ---

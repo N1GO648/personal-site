@@ -1,7 +1,7 @@
 ---
 title: Using Postman to Test Website Functionality A Guide for Developers
 date: '2023-11-20'
-spoiler: DLearn how Postman can streamline your web development process by testing API functionality effectively.
+spoiler: Learn how Postman can streamline your web development process by testing API functionality effectively.
 ---
 ![Alt text](image.png)
 
