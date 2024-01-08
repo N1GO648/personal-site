@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
             <HomeLink />
             <span className="relative top-[4px] italic">
               by{" "}
-              <Link href="https://danabra.mov" target="_blank">
+              <Link href="https://nicolim.w3spaces.com/" target="_blank">
                 <img
                   alt="Nico Lim"
                   src="https://media.licdn.com/dms/image/D5603AQFaG_nqw81Dxg/profile-displayphoto-shrink_400_400/0/1680421668277?e=1708560000&v=beta&t=vzqtwtDMBhxrAICT977EtUz2xAgwK4iaY6yvPelYGPY"
