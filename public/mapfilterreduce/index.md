@@ -1,6 +1,6 @@
 ---
 title: Mastering JavaScript's Array Methods - Map, Filter, Reduce
-date: '2024-12-20'
+date: '2023-12-20'
 spoiler: Unravel the power and simplicity of JavaScript's array methods - map, filter, and reduce - to elevate your coding skills.
 ---
 
